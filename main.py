@@ -11,3 +11,14 @@ elif answer == "right":
 
 else:
     print("Not a valid option. You loose.")
+
+answer = input("The forest ends.  and you can go left or right? ").lower()
+
+if answer == "left":
+    print("You to the nearest hut")
+
+elif answer == "right":
+    print("you found a well")
+
+else:
+    print("Not a valid option. You loose.")
